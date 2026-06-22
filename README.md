@@ -53,6 +53,7 @@
 | ★ | `ex_write.c` | 演習：`/* TODO */` を埋めて書き込み関数を完成させる |
 | ★ | `ex_read.c` | 演習：`/* TODO */` を埋めて読み込み関数を完成させる |
 | ★★ | `task_max.c` | 発展：最高気温の場所を探す |
+| ★★★ | `bonus_perfect.c` | ボーナス：完全数を全て求める（数学 × プログラム） |
 
 **デモ用データ**
 
@@ -87,6 +88,8 @@ gcc ex_write.c -o ex_write && ./ex_write
 gcc ex_read.c  -o ex_read  && ./ex_read
 
 gcc task_max.c -o task_max && ./task_max
+
+gcc bonus_perfect.c -o bonus && ./bonus
 ```
 
 ### ファイルの中身を確認する
